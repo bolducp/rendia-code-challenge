@@ -5,3 +5,7 @@ body {
 h1, h2 {
     font-family: 'Lobster Two', cursive;
 }
+
+#to_night_video, #to_day_video {
+    max-height: 400px;
+}
