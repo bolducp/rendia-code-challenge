@@ -1,5 +1,6 @@
 body {
     font-family: 'David Libre', serif;
+    background-color: #212F3C;
 }
 
 h1, h2 {
@@ -7,5 +8,14 @@ h1, h2 {
 }
 
 #to_night_video, #to_day_video {
-    max-height: 400px;
+    max-height: 60vh;
+    max-width: 100%;
+}
+
+#to_day_video, #night {
+    display: none;
+}
+
+#night {
+    max-height: 60vh;
 }
